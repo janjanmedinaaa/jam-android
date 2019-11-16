@@ -25,11 +25,6 @@ open class JAMActivity : AppCompatActivity() {
         transitioning = false
     }
 
-    override fun onRestart() {
-        super.onRestart()
-        transitioning = false
-    }
-
     fun getString(key: String) = sharedPrefs.getString(key, "") ?: ""
 
     fun getFloat(key: String) = sharedPrefs.getFloat(key, 0f)
