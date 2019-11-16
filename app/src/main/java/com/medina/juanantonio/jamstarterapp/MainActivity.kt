@@ -14,6 +14,8 @@ class MainActivity : JAMActivity() {
             array = arrayListOf("NICE", "WOW", "AMAZING")
         }
 
+        activityOwner = this
+
         TestObject().fromJson(testObject.toJson())
     }
 }
