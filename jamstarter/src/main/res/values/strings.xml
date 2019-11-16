@@ -36,4 +36,6 @@
     <string name="Home">Home</string>
     <string name="profile">Profile</string>
     <string name="settings">Settings</string>
+
+    <string name="shared_prefs_created">%s SharedPreferences created.</string>
 </resources>
