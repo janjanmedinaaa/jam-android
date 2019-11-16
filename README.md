@@ -15,7 +15,7 @@ A Personal Base Project for my Kotlin Android Projects that includes ready to us
 ## Other Library Setup
 
 ### Data Binding
-- Add dataBinding on *app-level* build.gradle
+- Add dataBinding on **app-level** build.gradle
 
 ```
 dataBinding {
