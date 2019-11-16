@@ -1,0 +1,2 @@
+include ':app', ':jamstarter'
+rootProject.name='JAM Starter App'

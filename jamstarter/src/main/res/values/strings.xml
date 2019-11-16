@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Common -->
+    <string name="yes">@android:string/yes</string>
+    <string name="no">@android:string/no</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="ok">@android:string/ok</string>
+    <string name="submit">Submit</string>
+    <string name="send">Send</string>
+
+    <!-- Onboarding -->
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+    <plurals name="results_found">
+        <item quantity="zero">No results found</item>
+        <item quantity="one">1 result found</item>
+        <item quantity="many">%d results found</item>
+    </plurals>
+
+    <!-- User Data -->
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="contact_number">Contact Number</string>
+
+    <!-- Pages -->
+    <string name="Home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+</resources>
