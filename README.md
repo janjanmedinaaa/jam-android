@@ -2,8 +2,8 @@
 A Personal Base Project for my Kotlin Android Projects that includes ready to use libraries.
 
 ## Setup Starter Pack:
-- JAMActivity BaseActivity
-- Jsonable Interface
+- `JAMActivity` BaseActivity
+- `Jsonable` Interface
 - Toast Display
 - String Extensions
 - Shared Preferences Extensions
