@@ -5,7 +5,7 @@ import android.widget.Toast
 import android.widget.Toast.LENGTH_LONG
 import android.widget.Toast.LENGTH_SHORT
 
-fun Context.toast(string: String, long: Boolean = false) {
+fun Context.showToast(string: String, long: Boolean = false) {
     Toast.makeText(
         this,
         string,
