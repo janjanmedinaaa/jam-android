@@ -2,6 +2,7 @@ package com.medina.juanantonio.jamstarterapp
 
 import android.os.Bundle
 import com.medina.juanantonio.jamstarter.activities.JAMActivity
+import com.medina.juanantonio.jamstarter.common.feedback.toast
 
 class MainActivity : JAMActivity() {
 
@@ -15,7 +16,11 @@ class MainActivity : JAMActivity() {
         }
 
         activityOwner = this
+        testObject.toJson().save()
+    }
 
-        TestObject().fromJson(testObject.toJson())
+    override fun onSharedPreferenceChanged(key: String?, value: String?) {
+        super.onSharedPreferenceChanged(key, value)
+        toast("$key changed!")
     }
 }
